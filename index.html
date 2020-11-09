@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Knowledge Graph trial</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body style="background: #0000FF;">
+ <div class="login">
+	<h1>Knowledge Graph Recommendation</h1>
+	<br>
+    <br>
+    <br>
+    
+
+     <!-- Main Input For Receiving Query to our Model -->
+    <form action="http://127.0.0.1:5000/results"method="post" >
+    	<input type="text" name="Candidate ID" placeholder="Enter Candidate ID" required="required" />
+      <button type="submit" class="btn btn-primary btn-block btn-large">Recommend candidate</button>
+    </form>
+
+   <br>
+   <br>
+   {{ recommended_text }}
+
+ </div>
+</body>
+</html>
+
