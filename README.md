@@ -15,3 +15,6 @@ The next task is to build the knowledge graph from “skills”. We started the 
 
 # 5. Combined Knowledge Graph
 Once we get a clear picture of the graph which is built separately our next step is to combine the knowledge graph to build a complete graph for the whole dataset. To build the graph, we used the library called ‘networkx’. The biggest challenge to combine the graphs was that we can combine only two graphs at a time. To construct the final graph, first we combine graphs of skills and university and then combine degree type and degree level and finally combine the two combined graphs.
+
+# API
+In order to use API you can enter a candidate identity number and it will display the candidate number who are similar to it. In this way we can find the exact replacement for the employee who left the job. 
