@@ -1,6 +1,6 @@
 # Employee_Recommendation_Knowledge_Graph
 Building Knowledge Graph
-At this phase of the project, building a knowledge graph with all the available attributes together is impossible. So, we build a separate knowledge graph for attributes like university, skill and education etc. to understand the graph. It turns out very well, as we can clearly visualize both entities and the relationship (which is basically the attribute name in this case).
+At this phase of the project, building a knowledge graph with all the available attributes together is impossible. So, I build a separate knowledge graph for attributes like university, skill and education etc. to understand the graph. It turns out very well, as we can clearly visualize both entities and the relationship (which is basically the attribute name in this case).
 1. Knowledge Graph of “University”
 To build the first knowledge graph, which is by taking the first attribute ‘University’, the raw data has the universities he/she has attended and the ranking of those universities. The result was to retain only the top-ranking universities out of all those universities. Luckily, the universities were already arranged in higher to lower ranking order and all we had to do is to extract the first of those universities. The only challenging part was to work with python nested dictionary. 
 
