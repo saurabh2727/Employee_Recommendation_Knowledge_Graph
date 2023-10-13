@@ -1,3 +1,4 @@
+# The entire code file with the output and generated graph can be viewed by downloading the HTML file.
 # Employee_Recommendation_Knowledge_Graph
 Building Knowledge Graph: 
 At this phase of the project, building a knowledge graph with all the available attributes together is impossible. So, I build a separate knowledge graph for attributes like university, skill and education etc. to understand the graph. It turns out very well, as we can clearly visualize both entities and the relationship (which is basically the attribute name in this case). Four fields have been used to create knowledge graph namely “University”, “Degree Level”, “Degree Type”, and “Skills”.
